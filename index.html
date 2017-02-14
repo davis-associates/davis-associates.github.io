@@ -34,7 +34,7 @@
     </style>
 </head>
 <body>
-	<h1>happy v-day <span id = "wink">;)</span>
+	<h1 id = "vday">happy v-day <span id = "wink">;)</span>
 	</h1>
 	<script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -48,7 +48,8 @@
 		crossorigin="anonymous"></script>
 		<script>
 		$(function(){  // $(document).ready shorthand
-			$('#wink').hide().delay(2).fadeIn(5000).fadeOut(5000);
+			$('#wink').hide().delay(1000).fadeIn(5000).fadeOut(5000);
+			$('#vday').hide().delay(15000).fadeOut(5000);
 		});
 	</script>
 </body>
