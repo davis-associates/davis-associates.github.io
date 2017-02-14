@@ -1,1 +1,8 @@
+body {
+  padding-top: 33%;
+  text-align:center;
+}
 
+h1, a, p {
+  text-align: center;
+}
