@@ -1,15 +1,13 @@
 body {
-  text-align:center;
-  width: 100vw;
-  height: 100vh;
+	background-color: #ffffff;
+	width: 100%;
+	text-align: center;
+	padding: 20vh 0 0;
 }
 
-h1, a, p {
-  text-align: center;
-}
-
-#link {
-  position: fixed;
-  top: 40vh;
-  left: 40vw;
+#splashlogo {
+	height: 40%;
+	width: 40%;
+/*	margin: 0 auto;*/
+	text-align: center;
 }
